@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Timothy Adkins — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#10141c;--card:#171d28;--line:#2a3344;--ink:#e7ecf3;--dim:#9aa6b8;--gold:#d4b483;--teal:#7eb8b0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",sans-serif;line-height:1.55}
+a{color:var(--teal);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 72px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line);flex-wrap:wrap;gap:10px}
+.logo{font-family:"Source Serif 4",serif;font-weight:700;font-size:20px}
+.logo span{display:block;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--dim);font-weight:400}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-family:"IBM Plex Mono",monospace;font-size:12px}
+nav a{color:var(--dim)}
+.hero{padding:48px 0 12px}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:"Source Serif 4",serif;font-size:clamp(30px,5vw,48px);line-height:1.15;margin:10px 0 16px;max-width:18ch}
+.lede{max-width:68ch;color:#c5cedb}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.btn{border:1px solid var(--gold);color:var(--gold);padding:10px 14px;font-family:"IBM Plex Mono",monospace;font-size:12px}
+.btn.alt{border-color:var(--line);color:var(--dim)}
+h2{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:40px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);padding:18px}
+.card h3{font-family:"Source Serif 4",serif;font-size:20px;margin-bottom:8px}
+.card p,.card li{color:var(--dim);font-size:15px}
+.card ul{padding-left:18px}
+.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.tag{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--dim)}
+.flow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;font-family:"IBM Plex Mono",monospace;font-size:11px}
+.flow b{border:1px solid var(--line);padding:6px 8px;font-weight:500}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--dim);font-family:"IBM Plex Mono",monospace;font-size:11px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+</style>
+</head>
+<body style="background:#10141c;color:#e7ecf3">
+<div class="wrap">
+<header>
+  <div class="logo">Timothy Adkins<span>Devon, PA · available now</span></div>
+  <nav>
+    <a href="#strengths">Strengths</a>
+    <a href="#work">Work</a>
+    <a href="#code">Code</a>
+    <a href="field-desk.html">Field Desk</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<section class="hero">
+  <p class="kicker">Security · investigations · operations · build</p>
+  <h1>Well-rounded technologist. Investigator first.</h1>
+  <p class="lede">M.S. Cybersecurity, Drexel (GPA 3.86). CompTIA Security+. Sergeant, Drexel University Police, 2021–2026. I can write an incident report, image a PC, segment a lab VLAN, run a scoped nmap assessment, and explain it to a non-technical boss.</p>
+  <div class="btns">
+    <a class="btn" href="field-desk.html">Field Desk demo</a>
+    <a class="btn alt" href="https://github.com/timadkins28">GitHub</a>
+    <a class="btn alt" href="https://www.linkedin.com/in/timadkins">LinkedIn</a>
+  </div>
+</section>
+<h2 id="strengths">Competencies</h2>
+<div class="grid">
+  <div class="card"><h3>Investigations and DFIR</h3><ul><li>Cyber fraud and theft cases at Drexel UPD</li><li>Chain of custody, OSINT, digital records, cameras</li><li>Autopsy, Wireshark, timelines, after-action writing</li></ul></div>
+  <div class="card"><h3>Assessment and recon</h3><ul><li>Kali, Nmap, Burp, Metasploit, Flipper Zero</li><li>Lotus profiles: snapshot, review, baseline, validation</li><li>Authorized lab targets only</li></ul></div>
+  <div class="card"><h3>Service desk and desktop</h3><ul><li>Incident / request / change notes</li><li>Windows 10/11 imaging and break-fix</li><li>M365, remote support, ticket priority</li></ul></div>
+  <div class="card"><h3>Servers and network</h3><ul><li>Omada, managed switches, VLANs, firewall</li><li>Pironman always-on host</li><li>Windows Server, Ubuntu, VMware, VirtualBox</li></ul></div>
+  <div class="card"><h3>Software and AI</h3><ul><li>Python scan → parse → HTML report</li><li>Field Desk UI (HTML/JS)</li><li>LLM bots for research and drafts, human review</li><li>VS Code, shell, SQL, C, Java coursework</li></ul></div>
+  <div class="card"><h3>Hardware and making</h3><ul><li>Three PCs built from parts</li><li>AutoCAD for 3D-print designs</li><li>Ultimaker Cura / printed lab parts</li></ul></div>
+</div>
+<h2 id="work">Work</h2>
+<div class="card">
+  <div class="row"><h3>Lotus Cybersecurity LLC</h3><span class="tag">2026–present · lab and product</span></div>
+  <p>Field assessment kit: operator UI, nmap runner, parser, HTML dossier. Homelab under it. Not a billed client list.</p>
+  <div class="flow"><b>target</b> → <b>nmap</b> → <b>parse</b> → <b>report</b></div>
+</div>
+<div class="card" style="margin-top:12px">
+  <div class="row"><h3>Sergeant, Drexel University Police</h3><span class="tag">2021–2026</span></div>
+  <p>Patrol officer → bike patrol → sergeant. Cyber fraud and theft. Reports for command. FTO and MOI. Medal of Life Saving, 2022. IT liaison on CCTV, access control, evidence systems.</p>
+</div>
+<h2 id="code">Public proof</h2>
+<div class="grid">
+  <div class="card"><h3>Lotus Field</h3><p>Pipeline and Field Desk source.</p><p><a href="https://github.com/timadkins28/lotus-field">github.com/timadkins28/lotus-field</a></p></div>
+  <div class="card"><h3>Service desk</h3><p>Templates and four lab tickets.</p><p><a href="https://github.com/timadkins28/service-desk">github.com/timadkins28/service-desk</a></p></div>
+  <div class="card"><h3>Homelab</h3><p>Inventory, VLAN plan, ops notes.</p><p><a href="https://github.com/timadkins28/homelab">github.com/timadkins28/homelab</a></p></div>
+</div>
+<h2>School and certs</h2>
+<div class="card">
+  <p><strong>M.S. Cybersecurity</strong>, Drexel University, 2024–2026, GPA 3.86</p>
+  <p style="margin-top:8px"><strong>B.A. Criminal Justice</strong>, Temple · <strong>ACT 120</strong>, Lackawanna</p>
+  <p style="margin-top:8px">Security+ (May 2026) · TryHackMe · AWS Academy Cloud Foundations · AZ-900 in progress · FEMA ICS 100 and 200</p>
+</div>
+<h2 id="contact">Contact</h2>
+<div class="card">
+  <p><a href="mailto:timadkins28@gmail.com">timadkins28@gmail.com</a></p>
+  <p>570-249-7988</p>
+  <p><a href="https://www.linkedin.com/in/timadkins">linkedin.com/in/timadkins</a></p>
+</div>
+<footer>
+  <span>Timothy Adkins · Devon, PA</span>
+  <span>DFIR · SOC · help desk · desktop · junior admin</span>
+</footer>
+</div>
+</body>
+</html>
