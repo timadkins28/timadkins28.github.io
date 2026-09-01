@@ -1,18 +1,17 @@
 # Timothy Adkins
 
-Investigations, DFIR, and security engineering.
+Portfolio site for cybersecurity and IT operations work.
 
-This repository is the source for my public portfolio site on GitHub Pages.
-
-**Site:** after first publish, `https://YOURUSER.github.io`
+**Live site:** https://timadkins28.github.io/
 
 **Contact:** timadkins28@gmail.com · [LinkedIn](https://www.linkedin.com/in/timadkins)
 
-What lives here now:
-- Portfolio homepage (`index.html`)
-- Lab, product, and investigation work written for hiring managers
+## This repo
 
-What will be added next (separate repos, linked from this page):
-- Homelab notes (network, VLAN, monitoring)
-- Detection and parsing scripts
-- DFIR practice writeups
+Source for the public page. `index.html` plus `styles.css`.
+
+## Other public repos
+
+- [lotus-field](https://github.com/timadkins28/lotus-field) — assessment pipeline and Field Desk UI
+- [service-desk](https://github.com/timadkins28/service-desk) — ticket templates and lab examples
+- [homelab](https://github.com/timadkins28/homelab) — lab inventory, network, ops notes
